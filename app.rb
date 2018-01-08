@@ -3,7 +3,6 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require './models/model'
 
-
 get '/' do
 	erb :index
 end
